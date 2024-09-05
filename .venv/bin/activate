@@ -45,8 +45,6 @@ _OLD_VIRTUAL_PATH="$PATH"
 PATH="$VIRTUAL_ENV/bin:$PATH"
 export PATH
 
-API_KEY="AIzaSyBwJXk7x7DG5mLI1FDMpaFXrqPcRUqQCiE"
-export API_KEY
 # unset PYTHONHOME if set
 # this will fail if PYTHONHOME is set to the empty string (which is bad anyway)
 # could use `if (set -u; : $PYTHONHOME) ;` in bash
