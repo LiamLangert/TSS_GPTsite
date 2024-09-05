@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block header %}
+
+{% endblock %}
+
+{% block content %}
+<div class="container text-left mt-1">
+  <div class="row">
+    <div class="col">
+      <form method="post">
+        <label for="grades">Choose a grade:</label>
+        <input type="number" id="grades" name="grades" min="1" max="12">
+        <input type="submit" value="Generate">
+      </form>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p> {{display}} </p>
+    </div>
+  </div>
+</div>
+{% endblock %}
